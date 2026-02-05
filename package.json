@@ -1,0 +1,13 @@
+{
+  "name": "todo-apps-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd study-hub && npm run dev",
+    "build": "cd study-hub && npm run build",
+    "start": "cd study-hub && npm run start",
+    "lint": "cd study-hub && npm run lint"
+  },
+  "workspaces": [
+    "study-hub"
+  ]
+}
